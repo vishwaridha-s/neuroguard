@@ -15,7 +15,7 @@ public class Webconfig {
                 registry.addMapping("/**")
                         .allowedOrigins(
                             "http://localhost:5173",  // for local dev
-                            "https://neuroguard-z81r.onrender.com" // <-- replace with your actual frontend Render URL
+                            "https://neuroguard-frontend.vercel.app/" // <-- replace with your actual frontend Render URL
                         )
                         .allowedMethods("*")
                         .allowedHeaders("*")
